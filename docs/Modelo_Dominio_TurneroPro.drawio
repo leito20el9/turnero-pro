@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="Página-1" id="_Y3f2Fge0E5htyMq4iXZ">
+    <mxGraphModel dx="1042" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NVDp2ZkG-y1TqDBSMD_l-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="" vertex="1">
+          <mxGeometry height="140" width="130" x="50" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDp2ZkG-y1TqDBSMD_l-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;Servicio&lt;/div&gt;&lt;div&gt;-------------------------&lt;/div&gt;&lt;div&gt;id_servicio (PK)&lt;/div&gt;&lt;div&gt;nombre&lt;/div&gt;&lt;div&gt;duracion_minutos&lt;/div&gt;&lt;div&gt;precio&lt;/div&gt;&lt;div&gt;activo&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="110" x="60" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDp2ZkG-y1TqDBSMD_l-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="" vertex="1">
+          <mxGeometry height="175" width="130" x="330" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDp2ZkG-y1TqDBSMD_l-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;div&gt;Reserva&lt;/div&gt;&lt;div&gt;-------------------------&lt;/div&gt;&lt;div&gt;id_reserva (PK)&lt;/div&gt;&lt;div&gt;nombre_cliente&lt;/div&gt;&lt;div&gt;celular&lt;/div&gt;&lt;div&gt;fecha&lt;/div&gt;&lt;div&gt;hora_inicio&lt;/div&gt;&lt;div&gt;hora_fin&lt;/div&gt;&lt;div&gt;estado&lt;/div&gt;&lt;div&gt;codigo_cancelacion&lt;/div&gt;&lt;div&gt;id_servicio (FK)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="165" width="120" x="335" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDp2ZkG-y1TqDBSMD_l-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="" vertex="1">
+          <mxGeometry height="140" width="130" x="600" y="240.48" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDp2ZkG-y1TqDBSMD_l-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;div&gt;Bloqueo&lt;/div&gt;&lt;div&gt;-------------------------&lt;/div&gt;&lt;div&gt;id_bloqueo (PK)&lt;/div&gt;&lt;div&gt;fecha&lt;/div&gt;&lt;div&gt;hora_inicio&lt;/div&gt;&lt;div&gt;hora_fin&lt;/div&gt;&lt;div&gt;motivo&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="130" x="600" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDp2ZkG-y1TqDBSMD_l-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="" vertex="1">
+          <mxGeometry height="140" width="130" x="310" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDp2ZkG-y1TqDBSMD_l-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;UsuarioAdmin&lt;/div&gt;&lt;div&gt;-------------------------&lt;/div&gt;&lt;div&gt;id_admin (PK)&lt;/div&gt;&lt;div&gt;usuario&lt;/div&gt;&lt;div&gt;password&lt;/div&gt;&lt;div&gt;rol&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="130" x="310" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDp2ZkG-y1TqDBSMD_l-10" edge="1" parent="1" source="NVDp2ZkG-y1TqDBSMD_l-2" style="endArrow=classic;html=1;rounded=0;exitX=0.997;exitY=0.573;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="190" y="190" as="sourcePoint" />
+            <mxPoint x="330" y="159" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NVDp2ZkG-y1TqDBSMD_l-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="20" x="180" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDp2ZkG-y1TqDBSMD_l-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
+          <mxGeometry height="30" width="20" x="310" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDp2ZkG-y1TqDBSMD_l-14" edge="1" parent="1" source="NVDp2ZkG-y1TqDBSMD_l-8" style="endArrow=classic;html=1;rounded=0;entryX=0.308;entryY=1.005;entryDx=0;entryDy=0;exitX=0.43;exitY=-0.025;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" target="NVDp2ZkG-y1TqDBSMD_l-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="300" as="sourcePoint" />
+            <mxPoint x="460" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NVDp2ZkG-y1TqDBSMD_l-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="20" x="370" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDp2ZkG-y1TqDBSMD_l-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
+          <mxGeometry height="30" width="20" x="370" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDp2ZkG-y1TqDBSMD_l-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=45;" value="&lt;div&gt;UsuarioAdmin gestiona Servicios&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="10" width="120" x="190" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDp2ZkG-y1TqDBSMD_l-18" edge="1" parent="1" source="NVDp2ZkG-y1TqDBSMD_l-9" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" target="NVDp2ZkG-y1TqDBSMD_l-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="152" y="370" as="sourcePoint" />
+            <mxPoint x="150" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NVDp2ZkG-y1TqDBSMD_l-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="20" x="300" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDp2ZkG-y1TqDBSMD_l-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
+          <mxGeometry height="30" width="20" x="180" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDp2ZkG-y1TqDBSMD_l-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=90;" value="&lt;div&gt;&lt;div&gt;UsuarioAdmin gestiona Reservas&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20.96" width="120" x="354" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDp2ZkG-y1TqDBSMD_l-23" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="NVDp2ZkG-y1TqDBSMD_l-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="440" y="425" as="sourcePoint" />
+            <mxPoint x="590" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NVDp2ZkG-y1TqDBSMD_l-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="20" x="440" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDp2ZkG-y1TqDBSMD_l-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="N" vertex="1">
+          <mxGeometry height="30" width="20" x="570" y="350.48" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDp2ZkG-y1TqDBSMD_l-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=-15;" value="&lt;div&gt;&lt;div&gt;UsuarioAdmin gestiona Bloqueos&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="10" width="120" x="470.0019407771256" y="430.0019407771256" as="geometry" />
+        </mxCell>
+        <mxCell id="NVDp2ZkG-y1TqDBSMD_l-27" edge="1" parent="1" source="NVDp2ZkG-y1TqDBSMD_l-5" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.886;entryDx=0;entryDy=0;entryPerimeter=0;" target="NVDp2ZkG-y1TqDBSMD_l-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="470" y="220" as="sourcePoint" />
+            <mxPoint x="620" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NVDp2ZkG-y1TqDBSMD_l-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;rotation=15;" value="&lt;div&gt;&lt;div&gt;Bloqueo impide Reservas en ese horario&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry width="120" x="470" y="230" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
